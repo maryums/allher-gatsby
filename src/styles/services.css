@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
+
+.services h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: .5rem;
+}
+
+.services p {
+    margin-bottom: 2rem;
+}
+
+.services {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.8;
+}
+
+.service-cards-containers {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.service-cards-containers img {
+    width: 100%;
+    border-radius: 35px;
+}
+
+.cards {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: .7rem;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .service-cards-containers {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-cards-containers img {
+        max-width: 300px;
+
+    }
+
+}

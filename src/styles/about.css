@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
+
+.about {
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-right {
+    padding: 0 1rem;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.8;
+}
+
+.about-right h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.about-left img {
+    width: 100%; 
+    border-radius: 35px;
+}
+
+.about h3 {
+    margin-top: 1.1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+
+}

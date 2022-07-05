@@ -1,0 +1,39 @@
+
+
+.mission {
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.mission-left img {
+    width: 100%;
+    border-radius: 35px;
+}
+
+.mission-right {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.8;
+}
+
+.mission-right h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.mission-description {
+    margin-top: 1.1rem;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.mission {
+    display: flex;
+    flex-direction: column;
+}
+    
+
+}
